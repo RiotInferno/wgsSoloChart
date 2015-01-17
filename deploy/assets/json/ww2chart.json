@@ -1,0 +1,35 @@
+ww2chart = 
+'[{
+   [{
+      [{ //1
+         "special" : false,
+         "moves" : {[ 10, 10, 6 ]}
+      },
+      {
+         "special" : false,
+         "moves" : {[ 10, 10, 12, 33, 14 ]}
+      },
+      {
+         "special" : true,
+         "specialChance" : 3,
+         "specialMove" : 31, 
+         "moves" : {[ 10, 12, 6, 14 ]}
+      }]
+   },
+   {
+      [{ //2
+         "special" : false,
+         "moves" : {[ 10, 4, 4, 9, 33 ]}
+      },
+      {
+         "special" : false,
+         "moves" : {[ 12, 9, 9, 33 ]} 
+      },
+      {
+         "special" : true,
+         "specialChance" : 3,
+         "specialMove" : 25, 
+         "moves" : {[ 12, 9, 9, 4, 33] } 
+      }]
+   }]
+}]';
