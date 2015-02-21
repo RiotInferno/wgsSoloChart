@@ -28,7 +28,8 @@ enyo.kind({
          {content: 'Concept and Layout by: Joaquim [Blackronin]'},
          {content: 'Original Typography by: Mike [OldGuy59]'},
          {content: 'Web App by: John [RiotInferno]'},
-         {content: 'Please direct feedback to RiotInferno at the wingsofwar.org forum'}
+         {content: 'Please direct feedback to RiotInferno at the wingsofwar.org forum'},
+         {content: 'Spitfire Image under use of the GPL. Source Code available at https://github.com/RiotInferno/wgsSoloChart'}
       ]},
 	]}],
    getRandomItem: function( data, item )

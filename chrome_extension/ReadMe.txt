@@ -1,0 +1,1 @@
+Copy these files into ../deploy after running the deploy script.
