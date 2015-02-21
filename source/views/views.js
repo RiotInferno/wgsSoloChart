@@ -5,8 +5,8 @@ enyo.kind({
 	components:[
 		{kind: 'onyx.Toolbar', content: 'WW2 Universal Solo Dice Chart Simulator'},
       {kind: 'Panels', fit: 'true', components: [
-         {name: 'My panel', components: [
-            {kind: 'onyx.Toolbar', components: [
+         {name: 'app panel', components: [
+            {kind: 'onyx.Toolbar',  layoutKind: "FittableColumnsLayout", classes: "onyx-menu-toolbar", components: [
                {content: 'Sector'},
                {kind: 'onyx.PickerDecorator', components: [
                   {},
@@ -20,10 +20,12 @@ enyo.kind({
                      {content: 'Closing'},
                      {content: 'Close'}
                   ]}
-               ]},
+               ]}
+            ]},
+            {kind: 'onyx.Toolbar',  layoutKind: "FittableColumnsLayout", classes: "onyx-menu-toolbar", components: [
                {kind: 'onyx.Button', content: 'Engage', classes: 'onyx-affirmative', ontap: 'generateCard' },
-               {kind: 'enyo.Image', name: 'Order', fit: true, attributes:{ height:'70', width:'70' }},
-               {kind: 'enyo.Image', name: 'Speed', fit: true, attributes:{ height:'70', width:'70' }}
+               {kind: 'enyo.Image', name: 'Order', fit: false, attributes:{ height:'70', width:'70' }},
+               {kind: 'enyo.Image', name: 'Speed', fit: false, attributes:{ height:'70', width:'70' }}
             ]},
          {content: 'Concept and Layout by: Joaquim [Blackronin]'},
          {content: 'Original Typography by: Mike [OldGuy59]'},
